@@ -1,0 +1,137 @@
+#projects {
+  background-image: url('../images/pcb.png') ;
+  overflow: hidden;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  
+  color:white;
+}
+#projects h3 {
+  text-align:center;
+}
+.project {
+  background-color:white;
+  width:80px;
+  height:80px;
+  margin-bottom:20px;
+  overflow:hidden;
+  margin-left:35%;
+}
+.project a {
+  margin: 8px 8px;
+}
+.circular {
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.coconauts-logo{
+    padding:10%;
+        width:100%;
+}
+
+#about-me p {
+    font-size:150%
+}
+#follow-up p {
+font-size:125%
+}
+.social {
+    padding:20px;
+}
+
+#main {
+
+  background-image: url('../images/photo.jpg') ;
+  overflow: hidden;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding:50px;
+
+  /*background-size: cover;*/
+  background-size: 300px;
+  height: 200px;
+
+  color:#333;
+}
+.center {
+  float:center;
+  text-align:center;
+}
+
+#main .title {
+  font-size: 300%;
+}
+#main .subtitle {
+  font-size: 150%;
+}
+#main img {
+  width:150px;
+  margin-right:50px;
+}
+
+#menu{
+  width:100%;
+  padding:10px;
+ border:1px solid gray;
+ color:white;
+  position:relative;
+  background-color:#333;
+  z-index: 10;
+}
+
+#menu a {
+  padding-left: 20px;
+  text-decoration:none;
+  color:white;
+}
+#menu a:hover {
+  color:gray;
+}
+.menu-mobile p {
+    display:inline-block
+}
+#small-photo {
+    width:32px;
+    margin-right:20px;
+    display:inline-block;
+}
+
+.section {
+  padding:20px;
+}
+
+.right-text {
+  text-align:right
+}
+
+#cv { }
+.cv-file {
+    width:48px;
+    margin:16px;
+}
+#follow-up {
+
+ background-image: url('../images/code.png') ;
+  overflow: hidden;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  
+  color:white;
+}
+
+.post-link {
+    font-size: 150%;
+}
+
+#contact {
+  position:relative;
+  padding:10px;
+}

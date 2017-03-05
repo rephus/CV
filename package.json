@@ -1,0 +1,26 @@
+{  
+  "name": "javi-cv",  
+  "version": "0.0.2",  
+  "description": "Displays Javier Rengel's resume as Json",
+  "main" : "app.js",
+  "dependencies" : {
+    "express" : "4.0.0",
+    "body-parser" : "1.0.2"
+  },  
+  "engines": {  
+    "node": "0.10.x"  
+  },
+  "author": "Javier Rengel Jimenez",
+  "license" : "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:rephus/cv.git"
+  },
+  "keywords": [
+    "heroku",
+    "cv",
+    "nodejs",
+    "markdown",
+    "resume"
+  ]
+}

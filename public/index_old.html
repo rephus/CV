@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='css/reset.css'></link>
+    <link rel='stylesheet' type='text/css' href='css/cv.css'></link>
+    <script language='javascript' src='js/jquery-1.11.1.min.js'></script>
+    <script language='javascript' src='js/scrolld.min.js'></script>
+    <script language='javascript' src='js/cv.js'></script>
+  </head>
+  <body>
+      <ul id='quick_links'>
+          <li><a id="mainBtn" class="cvBtn" ><p>Main</p></a></li>
+          <li><a id="about_meBtn" class="cvBtn" ><p>About me</p></a></li>
+          <li><a id="cvBtn" class="cvBtn" ><p>My CV</p></a></li>
+          <li><a id="more_about_meBtn" class="cvBtn" ><p>Follow up</p></a></li>
+      </ul>
+
+    <div id='main'  class='section'>
+      <div class='content'>
+     
+        <h1>Hi</h1>
+        <p>My name is</p>
+        <h2>Javier Rengel Jiménez</h2>
+        <p class='center'>I am a</p>
+        <h2 class='center'>Software engineer</h2>
+        <p class='right'>and</p>
+        <h2 class='right'>Indie game developer</h2>
+        <br/>
+        
+      <p>Are you lost?, click on the following faqs to know more about this page.</p>
+        <ul>
+          <li>
+            <p class="faq_q">What it's the purpose of this webpage? </p>
+            <p class="faq_a">I wanted to show a personal view of myself in a modern format, rather than sharing my CV in PDF, so in this way you can get a better idea of who I am. </p>
+          </li>
+          <li>
+            <p class="faq_q">Why I am looking at this page ? </p>
+            <p class="faq_a">I don't know, you are problably here because you clicked on a link about me, I guess.</p>
+          </li>
+          <li>
+            <p class="faq_q">Forget it, I just want to download your CV </p>
+            <p class="faq_a">Ok, fine, just click <a id="cvBtn" class="cvBtn blue" >here</a> and download it.</p>
+          </li>
+          <li>
+            <p class="faq_q">Are you a designer or front-end developer?</p>
+            <p class="faq_a">Actually no, I am more like a backend developer, but I try my best in any field, click <a id="about_meBtn" class="cvBtn blue" >here</a> to see why to see why.</p>
+          </li>
+
+        </ul>
+        </div>
+    </div>
+    <div id='about_me'  class='section'>
+    <div class='content'>
+     <div class='title'><h2>About me</h2></div>
+      <p>I like computer science so much I spend most of my spare time building and learning new things (that's why you are looking this page).
+      I always try to build and understand all the parts involved in creating a techonology product, like devops, front-end, design, back-end or even marketing.</p>
+      <a href="http://coconauts.net" ><img  class="logo" src="images/coconauts.png"/></a> 
+
+      <p>I have a "team" called <a href="http://coconauts.net" class="blue" target="_blank">Coconauts</a> 
+            so you can find most of my contributions in its main webpage. </p>
+      <p>These are my most revlevant projects so far</p>
+      <br/>
+
+      <a href="http://coconauts.net/projects/game-manager" ><img  class="project" src="images/icons/game-manager.png"/></a> 
+      <a href="http://coconauts.net/projects/gramola" ><img  class="project" src="images/icons/gramola.png"/></a> 
+      <a href="http://coconauts.net" ><img  class="project" src="images/icons/octopress.png"/></a> 
+      <a href="http://coconauts.net/projects/turret-pi" ><img  class="project" src="images/icons/turret-pi.png"/></a> 
+      <a href="http://coconauts.net/projects/timebomb2" ><img  class="project" src="images/icons/timebomb-2.png"/></a> 
+      <p>But if you want to have a look at all my stuff you may check my <a href="http://www.coconauts.net/projects/" class="blue" target="_blank" > projects<a> page.</p>
+
+      <p> I also like electronics and hardware, so I enjoy using my Raspberry Pi or creating useful stuff 
+      like my awarded project <a href="http://www.coconauts.net/projects/watchduino/" class="blue" target="_blank"> Watchduino</a>.</p>  </td>
+      <iframe width="800" height="500" src="//www.youtube.com/embed/CtgR1YiwnEY" frameborder="0" allowfullscreen=""></iframe>
+      <ul>
+        <li>
+          <p class="faq_q">That's cool <span class='small'>*cough* geek *cough*</span>, but do you have a proper life ?  </p>
+          <p class="faq_a">Of course I do, I have a girlfriend, I have friends, I drink beer like normal people and I enjoy hamburgers a lot!</p>
+        </li>
+        <li>
+          <p class="faq_q">So, appart from your software and hardware stuff, do hoy have any hobbies ?</p>
+          <p class="faq_a">Yes I have, I like videogames, movies, and I enjoy crafting (hama beads, woodcraft, papercraft, etc), puzzles, board games, etc. </p>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id='cv' class='section'>
+     <div class='content'>
+      <div class='title'><h2>My CV</h2></div>
+        <p>My CV is available in different and unusual formats, check it by yourself:</p>
+
+        <br/>
+        <a href='https://bitbucket.org/rephus/cv/src/master/cv.md' target="_blank" class="button">Markdown (original)</a>
+        <a href='/json' target="_blank" class="button" >Json <span class="new">New</span></a>
+        <a href='/cv.html' target="_blank" class="button">HTML</a>
+        <a href='/cv.odt' class="button">ODT</a>
+        <a href='/cv.pdf' class="button">PDF</a>
+        <br/><br/>
+        <ul>
+          <li>
+            <p class="faq_q">Why are you using those formats</p>
+            <p class="faq_a">The original file is written in markdown, all other files are generated using that markdown file (even json). 
+            For Html and Odt I use pandoc, for json I built my own markdown parser using nodejs (the same server it's powering this page). 
+            You can read more about this in my <a href="https://bitbucket.org/rephus/cv" class="blue">bitbucket repo </a> </p>
+          </li>
+          <li>
+            <p class="faq_q">Why is so special this Json format</p>
+            <p class="faq_a">Json is a compact machine human-readable easy-to-use format,
+            and it is generated directly from a markdown file using nodejs. 
+            You can read more about this in my <a href="https://bitbucket.org/rephus/cv" class="blue">bitbucket repo </a> </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id='more_about_me' class='section'>
+      <div class='content'>
+        <div class='title'><h2>Follow up</h2></div>
+        <p>First, if you want to know more about me you should visit my "team" webpage at  <a href="http://coconauts.net" class="blue" target="_blank">Coconauts</a> </p>
+        
+        <p>But also, you can see my social profiles in all the following social networks:</p>
+        <a href="https://www.facebook.com/rephus" ><img  class="social" src="images/facebook.png"/></a>
+        <a href="http://twitter.com/rephus" ><img  class="social" src="images/twitter.png"/></a>
+        <a href="http://es.linkedin.com/pub/javier-rengel-jimenez/56/865/432/en" ><img  class="social" src="images/linkedin.png"/></a>
+        <a href="https://plus.google.com/u/0/100118526666395537169/" ><img  class="social" src="images/gplus.png"/></a>
+        
+        <p>Alternatively, If you'd like to contact me, you can send me an <a href="mailto:javier@coconauts.net" class="blue" target="_blank">email</a>. </p>
+        
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+  </script>
+</html>
