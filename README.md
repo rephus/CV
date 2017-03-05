@@ -11,9 +11,7 @@ Run *npm install* to install nodejs dependencies (look at package.json for more 
 ## For more information
 
 * [See the introduction page](http://javi-cv.herokuapp.com)
-
 * [See the CV in Json](http://javi-cv.herokuapp.com/json)
-
 * [See the CV in markdown format](https://bitbucket.org/rephus/cv/src/5846e828eae04cbfa069e5144be55839429169d7/cv.md?at=master)
 * [See the CV in Html](http://javi-cv.herokuapp.com/cv.html)
 * [Download the CV in ODT format](http://javi-cv.herokuapp.com/cv.odt)

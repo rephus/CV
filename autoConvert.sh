@@ -1,6 +1,6 @@
 #!/bin/bash
 md="cv.md"
-html="cv.html"
+html="public/cv.html"
 
 echo "Looking for changes in $md"
 
