@@ -1,10 +1,20 @@
-module.exports = {
-  parse: function parse(lines){
-      var json = {},
-          nodes = [],
-          lastKey = json;
-          
-      for (i in lines){
+var fs = require("fs");
+
+if (process.argv.length < 4) {
+  console.error("Missing argument, usage: "+
+    "node  markdown.js INPUT_FILE OUTPUT_FILE");
+  return;
+}
+var INPUT_FILE = process.argv[2];
+var OUTPUT_FILE = process.argv[3];
+
+function parse(lines){
+
+      var json = {};
+      var nodes = [];
+      var lastKey = json;
+
+      for (var i=0; i < lines.length; i++){
           try{
               var line = lines[i];
               if (isTitle2(line) ){
@@ -28,19 +38,60 @@ module.exports = {
                   getJson(json,nodes)[key] = fixUrl(getValue(line));
               }
           } catch (e){
-              console.log("Unable to jsonify "+line);
+              console.log("Unable to jsonify on line "+i+": "+line);
           }
       }
       return json;
-  }
+}
+
+var writeJsonToFile = function(content, output){
+
+  var text = JSON.stringify(content,null, 4);
+
+  fs.writeFile(output, text, function(err) {
+      if(err) {
+          console.log(err);
+      } else {
+          //console.log("The file was saved! "+ output);
+      }
+  });
 };
+
+var mardownToJson = function(inputfile, outputfile) {
+
+  var input = fs.createReadStream(inputfile);
+
+  var remaining = '';
+  var lines = [];
+
+    input.on('data', function(data) {
+        remaining += data;
+        var index = remaining.indexOf('\n');
+        while (index > -1) {
+            var line = remaining.substring(0, index);
+            remaining = remaining.substring(index + 1);
+            lines.push(line);
+            index = remaining.indexOf('\n');
+        }
+    });
+
+    input.on('end', function() {
+        if (remaining.length > 0) lines.push(remaining);
+
+        var json = parse(lines);
+        writeJsonToFile(json, outputfile);
+    });
+
+};
+
+mardownToJson(INPUT_FILE, OUTPUT_FILE);
 
 var initArray = function initArray(json,nodes){
     if (!getJson(json,nodes).length) {
       for (var i=nodes.length; i>=0;i--){ //cannot use getJson here
             try{
                 if (i==2 && json[nodes[0]][nodes[1]][nodes[2]]) {
-                    json[nodes[0]][nodes[1]][nodes[2]] = []; 
+                    json[nodes[0]][nodes[1]][nodes[2]] = [];
                     break;
                 }
                 else if (i==1 && json[nodes[0]][nodes[1]]) {
@@ -91,8 +142,8 @@ var getValue = function getValue(line){
 
 var fixUrl= function fixUrl(line){
     line = line.replace(/\[(.*)\]/g, "");
-    //line = line.replace(/\(/g, "");
-    //line = line.replace(/\)/g, "");
+    line = line.replace(/\(/g, "");
+    line = line.replace(/\)/g, "");
     return line;
 }
 
@@ -118,4 +169,4 @@ var getList= function getList(lines, start){
       i++;
     }
     return array;
-} 
+}

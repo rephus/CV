@@ -8,3 +8,5 @@ pandoc "$file.md" -f markdown -t odt -s -o "public/$file.odt"
 echo "Converting markdown to PDF"
 libreoffice --headless --convert-to pdf "public/$file.odt" > /dev/null
 mv cv.pdf public/cv.pdf
+echo "Converting markdown to JSON"
+node markdown.js cv.md public/cv.json

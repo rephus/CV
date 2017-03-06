@@ -6,32 +6,35 @@ Also, everything between parenthesis and without semicolons
 will be ignored by node.js / json
 -->
 
-Javier Rengel Jiménez
- 
-Backend software engineer
+# Javier Rengel Jiménez
 
-BSc in Computer Engineering at Málaga University, with honors
+Senior Backend Software Engineer
 
-## Personal information
+BSc in Computer Engineering at Málaga University
 
 <!--
+## Personal information
+
 Name: Javier Rengel Jimenez
-Title: Backend software engineer and indie games developer
-Languages: English (High), Spanish (Native)
-Education: BSc in Computer Engineering at Málaga University, with honors
+Title: Senior Backend Software Engineer
+Education: BSc in Computer Engineering at Málaga University
 -->
 
 ### Contact
 
-Email: rephus@gmail.com / javier@coconauts.net
+Email: javier@rengel.me, javier@coconauts.net
 
 Telephone:  +44 7435230551
+
+Website: [Coconauts.net](http://coconauts.net), [Rengel.me](http://rengel.me)
 
 LinkedIn: [Javier Rengel](https://www.linkedin.com/pub/javier-rengel-jimenez/56/865/432/en)
 
 Twitter: [rephus](http://twitter.com/rephus)
 
 Facebook: [rephus](https://www.facebook.com/rephus)
+
+Github: [https://github.com/rephus](https://github.com/rephus)
 
 ## Working experience
 
@@ -41,25 +44,28 @@ Url: https://networklocum.com
 <!--
 Started: 2015-12-15
 -->
-Description: Network Locum is a great service that unifies Practices and Locums (GPs) on a single platform,
-managing sessions and rotas for the practices, and allowing the Locums to easily apply for jobs.
+Description: Network Locum is a market network that unifies Practices and
+Locums (GPs) on a single platform, managing sessions and rotas for the
+practices, and allowing the Locums to easily apply for jobs.
 Processing and emitting invoices for both in the process.
 
-Conclussion: Smart team of people with different working cultures.
-We all worked really hard on doing a codebase refactoring in 6 weeks,
+Insight: Smart team of people with different approaches to work.
+We all worked really hard on doing a codebase refactor in 6 weeks,
 defining and creating from scratch all the existing platform features
 in new Django, Flask and Scala docker microservices.
-Then worked as part of squad member in improving the billing process.
+We then shifted to a squads-based structure, and I joined the one in
+charge of the billing process.
 
-#### Tasks
+#### Higlights
 
-* Full microservice arquitecture using Docker and Rancher
-* Contributed in important arquitectural decissions
-* Backend mostly built in Python3 Django and Flask
+* Full microservices architecture using Docker and Rancher
+* Input on important architectural decissions
+* Backend mostly built in Python3, Django and Flask (and a bit of Scala).
+  with PostgreSQL and Redis for persistence
 * TDD and BDD
-* Continuous testing using Jenkisn and Travis
-* DB administration (PostgreSQL, Redis)
-* Participated in software developer interviews
+* Continuous integration using Jenkins and Travis
+* Conducted software developer interviews
+* Mentoring other members of the team
 
 ### Top10 ( 2013-05-01 / 2015-12-01 )
 
@@ -69,14 +75,16 @@ Finished: 2015-12-01
 -->
 Description: Top10 was a hotel metasearch startup company based in London, taking advantage of brand new web technologies and good marketing campaigns.
 
-Conclussion: This small startup hires really good engineers, so I improved my knowledge in new technologies and good code practices
+Insight: It was a small startup with a team of top-talent engineers,
+I had the chance to vastly improve my knowledge both in new technologies
+and good code practices.
 
-#### Tasks
+#### Higlights
 
-* Web backend development in Scala (sbt)
-* Full custom CMS app built in Scala (play)
-* CI administration with Jenkins
-* DB administration (Cassandra, Memcached, ElasticSearch, Redis)
+* Backend microservices development in Scala
+* Full custom CMS app built in Scala (Play Framework)
+* CI with Jenkins
+* Polyglot persistence with Cassandra, Memcached, ElasticSearch, Redis)
 * Heavy use of Amazon WS (DynamoDB, EC2, S3, SQS, SNS, etc)
 
 ### Openbet Ltd.  ( 2012-10-15 / 2013-05-01 )
@@ -85,15 +93,14 @@ Url: http://www.openbet.com
 
 <!--
 Started: 2012-10-15
-
 Finished: 2013-05-01
 -->
 
 Description: Openbet are the world's leading provider of interactive gaming and betting solutions. Established in 1996, and with offices in USA, Australia and the UK, provides solutions for all of the mayor companies in the online gaming industry, including William Hill, Ladbrokes, Paddy Power, or Betfair.
 
-Conclussion: The codebase and the project was not so exciting, but I learned how it feels working in a large company, with a large team and I also was introduced to agile (standups, code reviews)
+Insight: While the codebase and project was not very flashy, I learned how it feels working in a large company with a large team and I also was introduced to agile (standups, code reviews)
 
-#### Tasks
+#### Highlights
 
 * Web backend development for sportsbook sites in Tcl
 * Troubleshooting, QA, optimization and code analysis for existing products
@@ -101,21 +108,26 @@ Conclussion: The codebase and the project was not so exciting, but I learned how
 * Tests server management (using Puppet and Bash scripting)
 * Release manager: in charge or the team's code merging, code deployment, and direct support towards clients
 
-### Asesores Locales consultoria S.A. ( 2009-07-01 / 2012-09-25 )
+### Asesores Locales Consultoria S.A. ( 2009-07-01 / 2012-09-25 )
 
 Url: http://www.asesoreslocales.com
 
 <!--
 Started: 2009-07-01
-
 Finished: 2012-09-25
 -->
 
 Description: Asesores locales is a well renowned medium-size consultancy company based in Madrid, Malaga and Cadiz (Spain). It's main line of business is the development of software for local goverments, as well as training in several fields. Other clients include companies both spanish and international.
 
-Conclussion: Asesores Locales was my first job as a developer. I learn some basics and JEE, and thanks to my motivation I ended up learning new stuff and theaching others, in other words, I was the innovative and geed mind in the company. I also built (by myself or leading) some applications and servers required.
+Insight: Asesores Locales was my first job as a developer. I learned some basics and JEE, and thanks to my motivation I ended up learning new stuff and theaching others, in other words, I was the innovative and geed mind in the company. I also built (by myself or leading) some applications and servers required.
 
-#### Tasks
+Insight: Asesores Locales was my first job as a developer.
+I started by learning some basics on JEE and web development, but fueled by
+my motivation, after the cuourse of my time there I ended up leading development
+of some projects, bringing new technology, and mentoring others
+(I was the official "innovator geek mind" in the company).
+
+#### Highlights
 
 * JEE development in several projects, as part of teams and autonomously
 * UI with IceFaces, Jboss Richfaces, ADF and Woodstock frameworks
@@ -134,21 +146,24 @@ Conclussion: Asesores Locales was my first job as a developer. I learn some basi
 * High-speed learner
 * Motivation to solve difficult problems
 * Friendly person, excellent working with teams, as well as independently
-* Result oriented, always looking for efficiency
-* Capable of managing small teams, or giving support to people, both technical and not technical
+* Result oriented, massive efficiency in achieving solutions
+* Capable of managing small teams, and mentoring people, both technical and not technical
 
 ## Personal projects
 
-* Owner of the Internet domain http://coconauts.net and contributor of https://www.cineactual.net
-* Creator of http://retrophies.win a web emulator with Achievements and multiplayer gameplay with websockets
- of original Nintendo games, featured on Hackernews.
-* Creator of WatchDuino and WatchDuino 2, a smartwatch based on Arduino with Bluetooth communication and
-companion app for Android.
-* A clon of StarCraft for mobile built from scratch on Unity3D
-* Musical videogame developed in Java and SDL as final thesis
+I am constantly playing with technology in my spare time, including
+not only application development but also hardware projects and games.
+You can see my full portfolio on [Coconauts.net](http://coconauts.net), and [Github.com/rephus](https://github.com/rephus)
+but some of the highlights include
+
+* [Retrophies](http://retrophies.win), a web emulator of NES games with Achievements and multiplayer gameplay via websockets.
+  and multiplayer gameplay with websockets, featured on Hackernews.
+* [Watchduino](http://coconauts.net/projects/watchduino2/), a smartwatch based
+  on Arduino with Bluetooth communication and companion app for Android.
+  Finalist on the Hackaday Prize 2015.
 * Casual mobile videogames released for Android platform since v1.6 [android](https://play.google.com/store/apps/developer?id=Coconauts)
-* Many videogame experiments with Unity 3D and HTML5
-* Participation in software contests and jams like Ludum dare, CUSL or Biicode
-* Personal electronic projects using Arduino, ESP8266 and Raspberry PI
-* Design and construction of domestic furniture with AutoCAD
-* For more info about projects, visit http://coconauts.net/projects/ or https://github.com/rephus
+* [Gramola](http://coconauts.net/projects/gramola/), a web-based music player written in Node.js
+* [My own podcast](http://coconauts.net/projects/podcast/) about development (in spanish)
+
+
+Curriculum vitae generated from Markdown, for the latest version visit [Rengel.me](http://rengel.me)
