@@ -4,7 +4,7 @@
   background-size: cover;
   background-attachment: scroll;
   background-position: center center;
-  
+
   color:white;
 }
 #projects h3 {
@@ -33,6 +33,7 @@
 .coconauts-logo{
     padding:10%;
         width:100%;
+        max-width:300px;
 }
 
 #about-me p {
@@ -123,7 +124,7 @@ font-size:125%
   background-size: cover;
   background-attachment: scroll;
   background-position: center center;
-  
+
   color:white;
 }
 
