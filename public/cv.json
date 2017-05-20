@@ -13,8 +13,9 @@
         }
     },
     "working-experience": {
-        "senior-backend-developer---contractor-semi-remote": {
-            "started": "2016-04-11"
+        "contractor-semi-remote": {
+            "started": "2016-04-11",
+            "description": "Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices."
         },
         "network-locum": {
             "url": "https://networklocum.com",

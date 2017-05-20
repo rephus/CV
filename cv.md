@@ -38,11 +38,11 @@ Github: [https://github.com/rephus](https://github.com/rephus)
 
 ## Working experience
 
-### Senior Backend Developer - Contractor semi-remote ( 2016-04-11 / - )
+### Contractor semi-remote ( 2016-04-11 / - )
 <!--
 Started: 2016-04-11
 -->
-Working semi-remote/full-remote software projects involving Python Django/Flask or Scala microservices.
+Description: Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices.
 
 ### Network Locum ( 2015-12-15 / 2016-04-06 )
 
