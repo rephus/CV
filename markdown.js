@@ -128,7 +128,7 @@ var isList = function isList(line){
 }
 
 var hasKey = function hasKey(line){
-    return line.indexOf(":") != -1;
+    return line.replace('http:', 'http').indexOf(":") != -1;
 }
 
 var getKey= function getKey(line){

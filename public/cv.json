@@ -9,24 +9,26 @@
             "website": "http://rengel.me",
             "linkedin": "https://www.linkedin.com/pub/javier-rengel-jimenez/56/865/432/en",
             "twitter": "http://twitter.com/rephus",
-            "facebook": "https://www.facebook.com/rephus",
             "github": "https://github.com/rephus"
         }
     },
     "working-experience": {
+        "senior-backend-developer---contractor-semi-remote": {
+            "started": "2016-04-11"
+        },
         "network-locum": {
             "url": "https://networklocum.com",
             "started": "2015-12-15",
+            "finished": "2016-04-06",
             "description": "Network Locum is a market network that unifies Practices and",
             "insight": "Smart team of people with different approaches to work.",
             "higlights": [
                 "Full microservices architecture using Docker and Rancher",
                 "Input on important architectural decissions",
-                "Backend mostly built in Python3, Django and Flask and a bit of Scala.",
+                "Backend mostly built in Python3, Django and Flask and a bit of Scala with PostgreSQL and Redis for persistence",
                 "TDD and BDD",
                 "Continuous integration using Jenkins and Travis",
-                "Conducted software developer interviews",
-                "Mentoring other members of the team"
+                "Conducted software developer interviews"
             ]
         },
         "top10": {
@@ -46,13 +48,12 @@
             "url": "http://www.openbet.com",
             "started": "2012-10-15",
             "finished": "2013-05-01",
-            "description": "Openbet are the world's leading provider of interactive gaming and betting solutions. Established in 1996, and with offices in USA, Australia and the UK, provides solutions for all of the mayor companies in the online gaming industry, including William Hill, Ladbrokes, Paddy Power, or Betfair.",
+            "description": "Openbet are the world's leading provider of interactive gaming and betting solutions, providing software solutions to William Hill, Ladbrokes, Betfair, etc.",
             "insight": "While the codebase and project was not very flashy, I learned how it feels working in a large company with a large team and I also was introduced to agile standups, code reviews",
             "highlights": [
                 "Web backend development for sportsbook sites in Tcl",
                 "Troubleshooting, QA, optimization and code analysis for existing products",
-                "Automation scripts in Bash and Expect",
-                "Tests server management using Puppet and Bash scripting",
+                "Automation scripts in Bash and Expect in Jenkins.",
                 "Release manager: in charge or the team's code merging, code deployment, and direct support towards clients"
             ]
         },
@@ -66,22 +67,19 @@
                 "JEE development in several projects, as part of teams and autonomously",
                 "UI with IceFaces, Jboss Richfaces, ADF and Woodstock frameworks",
                 "GIS system development in JEE using MapServer for custom street location service",
-                "Installation, configuration and maintenance of IBM servers with Windows Server 2008 R2 and CentOS",
+                "Devops: Installation, configuration and maintenance of IBM servers with Windows Server 2008 R2, CentOS and VMWare VSphere hypervisor 5.0",
                 "Administration of Oracle, MySQL and PostgreSQL databases",
                 "Application servers Glassfish v2/v3 and Oracle weblogic",
-                "VMWare VSphere hypervisor 5.0 administration",
                 "Product presentations inside and outside the company",
-                "Internal training",
                 "Manager role in some projects"
             ]
         }
     },
     "attitudes": [
+        "Extremely efficient developer, perfect balance between speed and",
         "Enthusiast and curious: continously learning and trying new technologies and languages on my sparte time",
-        "High-speed learner",
-        "Motivation to solve difficult problems",
+        "Motivation to solve difficult problems and build complex features",
         "Friendly person, excellent working with teams, as well as independently",
-        "Result oriented, massive efficiency in achieving solutions",
         "Capable of managing small teams, and mentoring people, both technical and not technical"
     ],
     "personal-projects": [

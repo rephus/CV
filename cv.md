@@ -12,6 +12,8 @@ Senior Backend Software Engineer
 
 BSc in Computer Engineering at Málaga University
 
+Curriculum vitae generated from Markdown, for the latest version visit [Rengel.me](http://rengel.me)
+
 <!--
 ## Personal information
 
@@ -32,17 +34,22 @@ LinkedIn: [Javier Rengel](https://www.linkedin.com/pub/javier-rengel-jimenez/56/
 
 Twitter: [rephus](http://twitter.com/rephus)
 
-Facebook: [rephus](https://www.facebook.com/rephus)
-
 Github: [https://github.com/rephus](https://github.com/rephus)
 
 ## Working experience
 
-### Network Locum ( 2015-12-15 / - )
+### Senior Backend Developer - Contractor semi-remote ( 2016-04-11 / - )
+<!--
+Started: 2016-04-11
+-->
+Working semi-remote/full-remote software projects involving Python Django/Flask or Scala microservices.
+
+### Network Locum ( 2015-12-15 / 2016-04-06 )
 
 Url: https://networklocum.com
 <!--
 Started: 2015-12-15
+Finished: 2016-04-06
 -->
 Description: Network Locum is a market network that unifies Practices and
 Locums (GPs) on a single platform, managing sessions and rotas for the
@@ -52,7 +59,7 @@ Processing and emitting invoices for both in the process.
 Insight: Smart team of people with different approaches to work.
 We all worked really hard on doing a codebase refactor in 6 weeks,
 defining and creating from scratch all the existing platform features
-in new Django, Flask and Scala docker microservices.
+in new Django, Flask docker microservices.
 We then shifted to a squads-based structure, and I joined the one in
 charge of the billing process.
 
@@ -60,12 +67,10 @@ charge of the billing process.
 
 * Full microservices architecture using Docker and Rancher
 * Input on important architectural decissions
-* Backend mostly built in Python3, Django and Flask (and a bit of Scala).
-  with PostgreSQL and Redis for persistence
+* Backend mostly built in Python3, Django and Flask (and a bit of Scala) with PostgreSQL and Redis for persistence
 * TDD and BDD
 * Continuous integration using Jenkins and Travis
 * Conducted software developer interviews
-* Mentoring other members of the team
 
 ### Top10 ( 2013-05-01 / 2015-12-01 )
 
@@ -84,7 +89,7 @@ and good code practices.
 * Backend microservices development in Scala
 * Full custom CMS app built in Scala (Play Framework)
 * CI with Jenkins
-* Polyglot persistence with Cassandra, Memcached, ElasticSearch, Redis)
+* Polyglot persistence with Cassandra, Memcached, ElasticSearch, Redis
 * Heavy use of Amazon WS (DynamoDB, EC2, S3, SQS, SNS, etc)
 
 ### Openbet Ltd.  ( 2012-10-15 / 2013-05-01 )
@@ -96,7 +101,7 @@ Started: 2012-10-15
 Finished: 2013-05-01
 -->
 
-Description: Openbet are the world's leading provider of interactive gaming and betting solutions. Established in 1996, and with offices in USA, Australia and the UK, provides solutions for all of the mayor companies in the online gaming industry, including William Hill, Ladbrokes, Paddy Power, or Betfair.
+Description: Openbet are the world's leading provider of interactive gaming and betting solutions, providing software solutions to William Hill, Ladbrokes, Betfair, etc.
 
 Insight: While the codebase and project was not very flashy, I learned how it feels working in a large company with a large team and I also was introduced to agile (standups, code reviews)
 
@@ -104,8 +109,7 @@ Insight: While the codebase and project was not very flashy, I learned how it fe
 
 * Web backend development for sportsbook sites in Tcl
 * Troubleshooting, QA, optimization and code analysis for existing products
-* Automation scripts in Bash and Expect
-* Tests server management (using Puppet and Bash scripting)
+* Automation scripts in Bash and Expect in Jenkins.
 * Release manager: in charge or the team's code merging, code deployment, and direct support towards clients
 
 ### Asesores Locales Consultoria S.A. ( 2009-07-01 / 2012-09-25 )
@@ -132,28 +136,26 @@ of some projects, bringing new technology, and mentoring others
 * JEE development in several projects, as part of teams and autonomously
 * UI with IceFaces, Jboss Richfaces, ADF and Woodstock frameworks
 * GIS system development in JEE using MapServer for custom street location service
-* Installation, configuration and maintenance of IBM servers with Windows Server 2008 R2 and CentOS
+* Devops: Installation, configuration and maintenance of IBM servers with Windows Server 2008 R2, CentOS and VMWare VSphere hypervisor 5.0 
 * Administration of Oracle, MySQL and PostgreSQL databases
 * Application servers Glassfish v2/v3 and Oracle weblogic
-* VMWare VSphere hypervisor 5.0 administration
 * Product presentations (inside and outside the company)
-* Internal training
 * Manager role in some projects
 
 ## Attitudes
 
+* Extremely efficient developer, perfect balance between speed and 
+test coverage.
 * Enthusiast and curious: continously learning and trying new technologies and languages on my sparte time
-* High-speed learner
-* Motivation to solve difficult problems
+* Motivation to solve difficult problems and build complex features
 * Friendly person, excellent working with teams, as well as independently
-* Result oriented, massive efficiency in achieving solutions
 * Capable of managing small teams, and mentoring people, both technical and not technical
 
 ## Personal projects
 
 I am constantly playing with technology in my spare time, including
 not only application development but also hardware projects and games.
-You can see my full portfolio on [Coconauts.net](http://coconauts.net), and [Github.com/rephus](https://github.com/rephus)
+You can see my full portfolio on [Coconauts.net](http://coconauts.net/projects), and [Github.com/rephus](https://github.com/rephus)
 but some of the highlights include
 
 * [Retrophies](http://retrophies.win), a web emulator of NES games with Achievements and multiplayer gameplay via websockets.
@@ -164,6 +166,3 @@ but some of the highlights include
 * Casual mobile videogames released for Android platform since v1.6 [android](https://play.google.com/store/apps/developer?id=Coconauts)
 * [Gramola](http://coconauts.net/projects/gramola/), a web-based music player written in Node.js
 * [My own podcast](http://coconauts.net/projects/podcast/) about development (in spanish)
-
-
-Curriculum vitae generated from Markdown, for the latest version visit [Rengel.me](http://rengel.me)
