@@ -7,6 +7,22 @@
 
   color:white;
 }
+
+#recommendations {
+  background-image: url('../images/recommendations.png') ;
+  overflow: hidden;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+
+  color:#333;
+}
+.recommendation {
+    background-image: url('../images/flashcard.png') ;
+  background-size: cover;
+
+
+}
 #projects h3 {
   text-align:center;
 }
