@@ -9,12 +9,7 @@
 }
 
 #recommendations {
-  background-image: url('../images/recommendations.png') ;
-  overflow: hidden;
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: center center;
-
+  background-color:#ddd;
   color:#333;
 }
 .recommendation {
@@ -152,3 +147,11 @@ font-size:125%
   position:relative;
   padding:10px;
 }
+
+
+/** blockquote styles **/
+.bq1 { padding-left: 16px; border-left: 5px solid #577da4; width: 700px; }
+.bq1 p { font-style: italic; font-size: 14px; line-height: 18px; color: #8c8785; }
+p.after { margin-left: 40px;  }
+p.after a { color: #6793d4; text-decoration: none; }
+p.after a:hover { text-decoration: underline; }
