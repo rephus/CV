@@ -1,6 +1,10 @@
+[Rengel.me](Rengel.me)
+
 ## Description
 
 This repository is used to host my personal CV in all formats, along with the code to generate the CV in Json format using NodeJs.
+
+Published under Github Pages (https://rephus.github.io/CV/) 
 
 The CV is written in Markdown format, in that way I can export it to any other format using __pandoc__
 
@@ -10,9 +14,9 @@ Run *npm install* to install nodejs dependencies (look at package.json for more 
 
 ## For more information
 
-* [See the introduction page](http://javi-cv.herokuapp.com)
-* [See the CV in Json](http://javi-cv.herokuapp.com/json)
-* [See the CV in markdown format](https://bitbucket.org/rephus/cv/src/5846e828eae04cbfa069e5144be55839429169d7/cv.md?at=master)
-* [See the CV in Html](http://javi-cv.herokuapp.com/cv.html)
-* [Download the CV in ODT format](http://javi-cv.herokuapp.com/cv.odt)
-* [Download the CV in PDF format](http://javi-cv.herokuapp.com/cv.pdf)
+* [See the introduction page](https://rephus.github.io/CV/public/)
+* [See the CV in Json](https://rephus.github.io/CV/public/cv.json)
+* [See the CV in markdown format](https://github.com/rephus/CV/blob/master/cv.md)
+* [See the CV in Html](https://rephus.github.io/CV/public/cv.html)
+* [Download the CV in ODT format](https://rephus.github.io/CV/public/cv.odt)
+* [Download the CV in PDF format](https://rephus.github.io/CV/public/cv.pdf)
