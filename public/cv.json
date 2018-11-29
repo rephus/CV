@@ -5,7 +5,6 @@
         "education": "BSc in Computer Engineering at Málaga University",
         "contact": {
             "email": "javier@rengel.me, javier@coconauts.net",
-            "telephone": "+44 7435230551",
             "website": "http://rengel.me",
             "linkedin": "https://www.linkedin.com/pub/javier-rengel-jimenez/56/865/432/en",
             "twitter": "http://twitter.com/rephus",
@@ -13,9 +12,9 @@
         }
     },
     "working-experience": {
-        "contractor-semi-remote": {
+        "contractor-fully-remote": {
             "started": "2016-04-11",
-            "description": "Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices."
+            "description": "Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices. on UK based companies."
         },
         "network-locum": {
             "url": "https://networklocum.com",

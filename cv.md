@@ -26,8 +26,6 @@ Education: BSc in Computer Engineering at Málaga University
 
 Email: javier@rengel.me, javier@coconauts.net
 
-Telephone:  +44 7435230551
-
 Website: [Coconauts.net](http://coconauts.net), [Rengel.me](http://rengel.me)
 
 LinkedIn: [Javier Rengel](https://www.linkedin.com/pub/javier-rengel-jimenez/56/865/432/en)
@@ -38,11 +36,11 @@ Github: [https://github.com/rephus](https://github.com/rephus)
 
 ## Working experience
 
-### Contractor semi-remote ( 2016-04-11 / - )
+### Contractor fully-remote ( 2016-04-11 / - )
 <!--
 Started: 2016-04-11
 -->
-Description: Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices.
+Description: Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices. on UK based companies.
 
 ### Network Locum ( 2015-12-15 / 2016-04-06 )
 
