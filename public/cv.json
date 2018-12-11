@@ -13,13 +13,13 @@
     },
     "working-experience": {
         "contractor-fully-remote": {
-            "started": "2016-04-11",
+            "started": "2017-04-11",
             "description": "Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices. on UK based companies."
         },
         "network-locum": {
             "url": "https://networklocum.com",
             "started": "2015-12-15",
-            "finished": "2016-04-06",
+            "finished": "2017-04-06",
             "description": "Network Locum is a market network that unifies Practices and",
             "insight": "Smart team of people with different approaches to work.",
             "higlights": [

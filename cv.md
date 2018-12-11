@@ -36,18 +36,18 @@ Github: [https://github.com/rephus](https://github.com/rephus)
 
 ## Working experience
 
-### Contractor fully-remote ( 2016-04-11 / - )
+### Contractor fully-remote ( 2017-04-11 / - )
 <!--
-Started: 2016-04-11
+Started: 2017-04-11
 -->
 Description: Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices. on UK based companies.
 
-### Network Locum ( 2015-12-15 / 2016-04-06 )
+### Network Locum ( 2015-12-15 / 2017-04-06 )
 
 Url: https://networklocum.com
 <!--
 Started: 2015-12-15
-Finished: 2016-04-06
+Finished: 2017-04-06
 -->
 Description: Network Locum is a market network that unifies Practices and
 Locums (GPs) on a single platform, managing sessions and rotas for the
