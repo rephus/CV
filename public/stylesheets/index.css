@@ -36,10 +36,7 @@
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-}
+  }
 
 .coconauts-logo{
     padding:10%;
@@ -128,14 +125,32 @@ font-size:125%
     width:48px;
     margin:16px;
 }
+
+#code-showcase {
+  
+   background-image: url('../images/code.png') ;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+  
+    color:white;
+  }
 #follow-up {
 
- background-image: url('../images/code.png') ;
-  overflow: hidden;
+ background-image: url('../images/links.png') ;
+ /* overflow: hidden;
   background-size: cover;
   background-attachment: scroll;
-  background-position: center center;
-
+  background-position: bottom center;*/
+  height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
   color:white;
 }
 
