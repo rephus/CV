@@ -43,6 +43,7 @@
     <meta name="twitter:creator" content="@coconauts">
 
    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-collapse.css">
    <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
    <link rel="stylesheet" type="text/css" href="stylesheets/projects.css">
 
@@ -57,8 +58,8 @@
       <div class="container">
          <div class="row">
             <div class='center'>
-               <p class='title'>Javier Rengel Jiménez</p>
-               <p class='subtitle'>Senior Backend Engineer</p>
+               <p class='title'>Javier Rengel</p>
+               <p class='subtitle'>Senior Full-stack Engineer</p>
             </div>
          </div>
       </div>
@@ -68,6 +69,7 @@
          <div class="row">
             <div class="col-sm-8 col-lg-8 column">
                <a href='#about-me' > About</a>
+               <a href='#experience' > Experience</a>
                <a href='#code-showcase' >Code showcase</a>     
                <a href='#recommendations' >Recommendations</a>               
                <a href='#projects' >Main Projects</a>
@@ -92,20 +94,233 @@
          <h2>About me</h2>
 
          <div class="row">
-         <div class="col-sm-10 col-lg-10 column">
-            <p>I'm a senior software engineer with over 10 years of experience. I specialice as a backend web developer, however, I have a good understanding of the full stack, from frontend to devops. I'm most productive at present with the Scala and Python ecosystems, however I consider myself to be technology-agnostic, and can quickly adapt to any stack.
+         <div class="col-sm-12 col-lg-12 column">
+            <p>I'm a senior software engineer with over 10 years of experience. 
+               I specialice as a backend web developer, however, 
+               I have a good understanding of the full stack,
+                from frontend (React) to devops 
+                (I've designed and managed several kubernetes clusters). 
+                I'm most productive at present with the Scala and Python ecosystems, 
+                however I consider myself to be technology-agnostic,
+                 and can quickly adapt to any stack.
             </p>
-            <p>Most of my professional experience has been with startups. I enjoy the thrill of building something brand new, plus the fast paced environment and good vives with a small and dedicated team.
+            <p>Most of my professional experience has been with startups in London. I enjoy the thrill of building something brand new, plus the fast paced environment and good vives with a small and dedicated team.
             </p>
             <p>During my spare time I am also constantly learning new technologies and building pet projects of very different natures: from web apps to videogames to mobile apps to electronics. I share them in my blog,
             <a href='http://coconauts.net'> Coconauts.net</a>. </p>
             </div>
-            <div class="col-sm-2 col-lg-2 column center">
-                <a href='http://coconauts.net'><img class='coconauts-logo' src='images/coconauts.png'/></a>
-            </div>
-
+           
          </div>
         </div>
+    </div>
+    <div id="experience" data-stellar-background-ratio="0.2" class='section' >
+      <div class="container">
+         <h2>Experience</h2>
+         <p>
+            This is a list of my previous companies, and some technologies and stuff I've done there
+         </p>
+
+         <div class="card">
+            <div class="card-header" id="headingStacker">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStacker" aria-expanded="true" aria-controls="collapseStacker">
+                  Stacker 2019-01 / - <span class="label label-default">Fully remote</span> <span class="label label-warning">Full stack</span> <span class="label label-danger">Contract</span>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseStacker" class="collapse" aria-labelledby="headingStacker" data-parent="#accordion">
+              <div class="card-body">
+                 Stacker aims to build a revolutionary service following no-code principles
+                  that will allow non technical users to build their 
+                 own portals by just importing their data from Airtable or Google sheets.
+                 
+                 <h3>Insight</h3>
+               I joined Stacker as a full stack engineer in its early stage, we went through some iterations in the product. 
+               It was very challening and exciting product to work on, 
+               because the goal to allow non technical users to build their own apps was not a very easy task;
+               not from the product point of view (no one has done it right yet) and not from the technical point of view. 
+               We had to design a very dinamic API based on any schema and configuration, with several generic layers (like permissions or roles), 
+               as well as a cache to maintain the data to keep it performant.                
+                 
+                 <h3>Hightlights</h3>
+                 <ul>
+                    <li>Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached</li>
+                    <li>I was in charge of devops: I designed and maintained Kubernetes staging and prod clusters</li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+
+
+
+         <div class="card">
+            <div class="card-header" id="headingLantum">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseLantum" aria-expanded="false" aria-controls="collapseLantum">
+                  Lantum 2017-04 / 2019-01 <span class="label label-default">Semi-remote</span> <span class="label label-primary">Senior backend engineer</span> <span class="label label-primary">Devops</span> <span class="label label-danger">Contract</span>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseLantum" class="collapse" aria-labelledby="headingLantum" data-parent="#accordion">
+              <div class="card-body">
+                 Lantum hired me as a contractor to design, maintain their python microservice architecture on Kubernetes in AWS. 
+                 Eventually I started also making changes to the frontend code built in Angular. 
+                            
+                 
+                 <h3>Hightlights</h3>
+                 <ul>
+                    <li>Technologies: AWS, Angular, Python, Kubernetes</li>
+                    <li>I was in charge of devops: I designed and maintained Kubernetes staging and prod clusters</li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-header" id="headingNL">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNL" aria-expanded="false" aria-controls="collapseNL">
+                  Network Locum 2015-12 / 2017-04 <span class="label label-success">London</span> <span class="label label-primary">Senior backend engineer</span>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseNL" class="collapse" aria-labelledby="headingNL" data-parent="#accordion">
+              <div class="card-body">
+               Network Locum is a market network that unifies
+               Practices and Locums (GPs) on a single platform, managing sessions and rotas for the practices,
+               and allowing the Locums to easily apply for jobs. Processing and emitting invoices for both in
+               the process.
+
+               <h3>Insight</h3>
+
+Smart team of people with different approaches to work. We all worked really hard on
+               doing a codebase refactor in 6 weeks, defining and creating from scratch all the existing platform
+               features in new Django, Flask docker microservices. We then shifted to a squads-based structure,
+               and I joined the one in charge of the billing process.
+
+                 <h3>Hightlights</h3>
+                 <ul>
+                    <li>Full microservices architecture using Docker and Rancher</li>
+                    <li>Backend mostly built in Python3, Django and Flask (and a bit of Scala) with PostgreSQL
+                     and Redis for persistence</li>
+                    <li>TDD and BDD</li>
+                    <li>Continuous integration using Jenkins and Travis</li>
+                    <li>Conducted software developer interviews</li>
+                 
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-header" id="headingTop10">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTop10" aria-expanded="false" aria-controls="collapseTop10">
+                  Top10 2013-05 / 2015-12 <span class="label label-success">London</span> <span class="label label-primary">Senior backend engineer</span>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseTop10" class="collapse" aria-labelledby="headingTop10" data-parent="#accordion">
+              <div class="card-body">
+               Top10 was a hotel metasearch startup company based in London, taking advantage
+of brand new web technologies and good marketing campaigns.
+
+               <h3>Insight</h3>
+
+               It was a small startup with a team of top-talent engineers, I had the chance to vastly
+               improve my knowledge both in new technologies and good code practices.
+                 <h3>Hightlights</h3>
+                 <ul>
+                  <li>Backend microservices development in Scala</li>
+                  <li> Full custom CMS app built in Scala (Play Framework)</li>
+                  <li> CI with Jenkins</li>
+                  <li> Polyglot persistence with Cassandra, Memcached, ElasticSearch, Redis</li>
+                  <li> Heavy use of Amazon WS (DynamoDB, EC2, S3, SQS, SNS, etc)</li>
+
+                 </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-header" id="headingOpenbet">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOpenbet" aria-expanded="false" aria-controls="collapseOpenbet">
+                  Openbet Ltd. 2012-10 / 2013-05 <span class="label label-success">London</span> <span class="label label-primary">Backend engineer</span>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOpenbet" class="collapse" aria-labelledby="headingOpenbet" data-parent="#accordion">
+              <div class="card-body">
+               Openbet are the world's leading provider of interactive gaming and betting
+solutions, providing software solutions to William Hill, Ladbrokes, Betfair, etc.
+
+               <h3>Insight</h3>
+
+                While the codebase and project was not very flashy, I learned how it feels working in a
+               large company with a large team and I also was introduced to agile (standups, code reviews)                
+               
+               <h3>Hightlights</h3>
+                              
+               <ul>
+                  <li>Web backend development for sportsbook sites in Tcl</li>
+                  <li> Troubleshooting, QA, optimization and code analysis for existing products</li>
+                  <li> Automation scripts in Bash and Expect in Jenkins.</li>
+                  <li> Release manager: in charge or the team's code merging, code deployment, and direct
+                     support towards clients</li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-header" id="headingAsesores">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseAsesores" aria-expanded="false" aria-controls="collapseAsesores">
+                  Asesores Locales Consultoria S.A. 2009-07 / 2012-09  <span class="label label-success">Malaga</span> <span class="label label-warning">Full stack</span>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseAsesores" class="collapse" aria-labelledby="headingAsesores" data-parent="#accordion">
+              <div class="card-body">
+               Asesores locales is a well renowned medium-size consultancy company based in
+               Madrid, Malaga and Cadiz (Spain). It's main line of business is the development of software for
+               local goverments, as well as training in several fields. Other clients include companies both
+               spanish and international.
+                              <h3>Insight</h3>
+
+               Asesores Locales was my first job as a developer.
+               I started by learning some basics on JEE and web development, but fueled by
+               my motivation, after the cuourse of my time there I ended up leading development
+               of some projects, bringing new technology, and mentoring others
+               (I was the official "innovator geek mind" in the company).
+               <h3>Hightlights</h3>
+
+               <ul>
+                  <li>JEE development in several projects, as part of teams and autonomously</li>
+                  <li> GIS system development in JEE using MapServer for custom street location service</li>
+                  <li> Devops: Installation, configuration and maintenance of IBM servers with Windows
+                     Server 2008 R2, CentOS and VMWare VSphere hypervisor 5.0.</li>
+                  <li> Administration of Oracle, MySQL and PostgreSQL databases</li>
+                  <li> Product presentations (inside and outside the company)</li>
+                  <li> Manager role in some projects</li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+
+
+       </div>
     </div>
     <div id="code-showcase" data-stellar-background-ratio="0.2" class='section' >
         <div class="container">
@@ -198,6 +413,22 @@
          </div>
       </div>
     </div>
+    <div id="attitudes" data-stellar-background-ratio="0.2" class='section' >
+      <div class="container">
+         <h2>Strengths</h2>
+
+         <ul>
+
+         <li> Very efficient developer, multi-tasker, right balance between speed and test coverage.</li>
+         <li>Can-do attitude</li>
+         <li>Likes to have a good overview of the global architecture, from the backend to the frontend, including databases, APIs, DNS and servers.</li>
+         <li> Special focus on performance: able to identify, find and fix bottlenecks.</li>
+         <li> Enthusiast and curious: continously learning and trying new technologies and languages on my spare time</li>
+         <li> Motivation to solve difficult problems and build complex features</li>
+         <li> Extremely friendly person and professional, excellent working with small teams, as well as independently</li>
+      </ul>
+      </div>
+   </div>
      <div id="projects" data-stellar-background-ratio="0.2" class='section' >
       <div class="container">
         <h2>Some personal projects</h2>
@@ -209,19 +440,19 @@
                <div class='circular project'>
                   <a target='_self' href='http://coconauts.net/projects/watchduino2' class='project-watchduino2'></a>
                </div>
-               <p>WatchDuino 2 is a SmartWatch built in Arduino that uses Bluetooth for sending messages to Android</p>
+               <p>WatchDuino 2 is a SmartWatch built in Arduino that uses Bluetooth for sending messages to Android, finalist on the Hackaday Prize 2015.</p>
             </div>
             <div class="col-sm-3 col-lg-3 column">
                <h3>Retrophies</h3>
                <div class='circular project'>
                   <a target='_self' href='http://html5.coconauts.net/retrophies/' class='project-retrophies'></a>
                </div>
-               <p>A web emulator of NES games with Achievements and multiplayer gameplay via websockets</p>
+               <p>A web emulator of NES games with Achievements and multiplayer gameplay via websockets, featured on Hackernews.</p>
             </div>
             <div class="col-sm-3 col-lg-3 column">
                <h3>StarCraft Unity3D</h3>
                <div class='circular project'>
-                  <a target='_self' href='http://coconauts.net/projects/timebomb2' class='project-starcraft-unity3d'></a>
+                  <a target='_self' href='http://coconauts.net/projects/starcraft-unity3d/' class='project-starcraft-unity3d'></a>
                </div>
                <p>RTS template optimized for mobile, built in Unity3D inspired in StarCraft</p>
             </div>

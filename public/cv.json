@@ -12,16 +12,24 @@
         }
     },
     "working-experience": {
-        "contractor-fully-remote": {
-            "started": "2017-04-11",
-            "description": "Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices. on UK based companies."
+        "stacker": {
+            "started": "2019-01",
+            "higlights": [
+                "Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached",
+                "I was in charge of devops: I designed and maintained Kubernetes staging and prod clusters"
+            ]
+        },
+        "lantum": {
+            "started": "2017-04",
+            "finished": "2019-01",
+            "higlights": [
+                "Technologies: AWS, Angular, Python, Kubernetes",
+                "I was in charge of devops: I designed and maintained Kubernetes staging and prod clusters"
+            ]
         },
         "network-locum": {
-            "url": "https://networklocum.com",
-            "started": "2015-12-15",
-            "finished": "2017-04-06",
-            "description": "Network Locum is a market network that unifies Practices and",
-            "insight": "Smart team of people with different approaches to work.",
+            "started": "2015-12",
+            "finished": "2017-04",
             "higlights": [
                 "Full microservices architecture using Docker and Rancher",
                 "Input on important architectural decissions",
@@ -32,10 +40,8 @@
             ]
         },
         "top10": {
-            "started": "2013-05-01",
-            "finished": "2015-12-01",
-            "description": "Top10 was a hotel metasearch startup company based in London, taking advantage of brand new web technologies and good marketing campaigns.",
-            "insight": "It was a small startup with a team of top-talent engineers,",
+            "started": "2013-05",
+            "finished": "2015-12",
             "higlights": [
                 "Backend microservices development in Scala",
                 "Full custom CMS app built in Scala Play Framework",
@@ -45,11 +51,8 @@
             ]
         },
         "openbet-ltd": {
-            "url": "http://www.openbet.com",
-            "started": "2012-10-15",
-            "finished": "2013-05-01",
-            "description": "Openbet are the world's leading provider of interactive gaming and betting solutions, providing software solutions to William Hill, Ladbrokes, Betfair, etc.",
-            "insight": "While the codebase and project was not very flashy, I learned how it feels working in a large company with a large team and I also was introduced to agile standups, code reviews",
+            "started": "2012-10",
+            "finished": "2013-05",
             "highlights": [
                 "Web backend development for sportsbook sites in Tcl",
                 "Troubleshooting, QA, optimization and code analysis for existing products",
@@ -58,11 +61,8 @@
             ]
         },
         "asesores-locales-consultoria-sa": {
-            "url": "http://www.asesoreslocales.com",
-            "started": "2009-07-01",
-            "finished": "2012-09-25",
-            "description": "Asesores locales is a well renowned medium-size consultancy company based in Madrid, Malaga and Cadiz Spain. It's main line of business is the development of software for local goverments, as well as training in several fields. Other clients include companies both spanish and international.",
-            "insight": "Asesores Locales was my first job as a developer.",
+            "started": "2009-07",
+            "finished": "2012-09",
             "highlights": [
                 "JEE development in several projects, as part of teams and autonomously",
                 "UI with IceFaces, Jboss Richfaces, ADF and Woodstock frameworks",
@@ -75,18 +75,21 @@
             ]
         }
     },
-    "attitudes": [
-        "Extremely efficient developer, perfect balance between speed and",
-        "Enthusiast and curious: continously learning and trying new technologies and languages on my sparte time",
+    "strengths": [
+        "Very efficient developer, multi-tasker, right balance between speed and test coverage.",
+        "Can-do attitude.",
+        "Likes to have a good overview of the global architecture, from the backend to the frontend, including databases, APIs, DNS and servers.",
+        "Special focus on performance: able to identify, find and fix bottlenecks.",
+        "Enthusiast and curious: continously learning and trying new technologies and languages on my spare time",
         "Motivation to solve difficult problems and build complex features",
-        "Friendly person, excellent working with teams, as well as independently",
-        "Capable of managing small teams, and mentoring people, both technical and not technical"
+        "Extremely friendly person, excellent working with teams, as well as independently"
     ],
     "personal-projects": [
-        "http://retrophies.win, a web emulator of NES games with Achievements and multiplayer gameplay via websockets.",
+        "http://coconauts.net/projects/podcast/ about development in spanish",
+        "http://coconauts.net/projects/starcraft-unity3d/ RTS template optimized for mobile, built in Unity3D inspired in StarCraft",
+        "http://html5.coconauts.net/retrophies, a web emulator of NES games with Achievements and multiplayer gameplay via websockets.",
         "http://coconauts.net/projects/watchduino2/, a smartwatch based",
-        "Casual mobile videogames released for Android platform since v1.6 https://play.google.com/store/apps/developer?id=Coconauts",
-        "http://coconauts.net/projects/gramola/, a web-based music player written in Node.js",
-        "http://coconauts.net/projects/podcast/ about development in spanish"
+        "Casual mobile videogames released for Android platform since v1.6 http://coconauts.net/blog/tags/android/",
+        "http://coconauts.net/projects/gramola/, a web-based music player written in Node.js"
     ]
 }

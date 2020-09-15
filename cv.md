@@ -6,9 +6,9 @@ Also, everything between parenthesis and without semicolons
 will be ignored by node.js / json
 -->
 
-# Javier Rengel Jiménez
+# Javier Rengel
 
-Senior Backend Software Engineer
+Senior Full-stack Engineer
 
 BSc in Computer Engineering at Málaga University
 
@@ -36,25 +36,44 @@ Github: [https://github.com/rephus](https://github.com/rephus)
 
 ## Working experience
 
-### Contractor fully-remote ( 2017-04-11 / - )
+### Stacker ( 2019-01 / - )
 <!--
-Started: 2017-04-11
+Started: 2019-01
+
 -->
-Description: Working semi-remote/full-remote on backend software projects involving Python Django/Flask or Scala microservices. on UK based companies.
+I joined Stacker as a full stack engineer in its early stage, we went through some iterations in the product. 
+It was very challening and exciting product to work on, 
+because the goal to allow non technical users to build their own apps was not a very easy task;
+not from the product point of view (no one has done it right yet) and not from the technical point of view. 
+We had to design a very dinamic API based on any schema and configuration, with several generic layers (like permissions or roles), 
+as well as a cache to maintain the data to keep it performant.                
 
-### Network Locum ( 2015-12-15 / 2017-04-06 )
+#### Higlights
 
-Url: https://networklocum.com
+* Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached
+* I was in charge of devops: I designed and maintained Kubernetes staging and prod clusters
+
+### Lantum ( 2017-04 / 2019-01 )
 <!--
-Started: 2015-12-15
-Finished: 2017-04-06
--->
-Description: Network Locum is a market network that unifies Practices and
-Locums (GPs) on a single platform, managing sessions and rotas for the
-practices, and allowing the Locums to easily apply for jobs.
-Processing and emitting invoices for both in the process.
+Started: 2017-04
+Finished: 2019-01
 
-Insight: Smart team of people with different approaches to work.
+-->
+Lantum hired me as a contractor to design, maintain their python microservice architecture on Kubernetes in AWS. 
+Eventually I started also making changes to the frontend code built in Angular. 
+
+#### Higlights
+
+* Technologies: AWS, Angular, Python, Kubernetes
+* I was in charge of devops: I designed and maintained Kubernetes staging and prod clusters
+
+### Network Locum ( 2015-12 / 2017-04 )
+
+<!--
+Started: 2015-12
+Finished: 2017-04
+-->
+Smart team of people with different approaches to work.
 We all worked really hard on doing a codebase refactor in 6 weeks,
 defining and creating from scratch all the existing platform features
 in new Django, Flask docker microservices.
@@ -70,15 +89,13 @@ charge of the billing process.
 * Continuous integration using Jenkins and Travis
 * Conducted software developer interviews
 
-### Top10 ( 2013-05-01 / 2015-12-01 )
+### Top10 ( 2013-05 / 2015-12 )
 
 <!--
-Started: 2013-05-01
-Finished: 2015-12-01
+Started: 2013-05
+Finished: 2015-12
 -->
-Description: Top10 was a hotel metasearch startup company based in London, taking advantage of brand new web technologies and good marketing campaigns.
-
-Insight: It was a small startup with a team of top-talent engineers,
+It was a small startup with a team of top-talent engineers,
 I had the chance to vastly improve my knowledge both in new technologies
 and good code practices.
 
@@ -90,18 +107,14 @@ and good code practices.
 * Polyglot persistence with Cassandra, Memcached, ElasticSearch, Redis
 * Heavy use of Amazon WS (DynamoDB, EC2, S3, SQS, SNS, etc)
 
-### Openbet Ltd.  ( 2012-10-15 / 2013-05-01 )
-
-Url: http://www.openbet.com
+### Openbet Ltd.  ( 2012-10 / 2013-05 )
 
 <!--
-Started: 2012-10-15
-Finished: 2013-05-01
+Started: 2012-10
+Finished: 2013-05
 -->
 
-Description: Openbet are the world's leading provider of interactive gaming and betting solutions, providing software solutions to William Hill, Ladbrokes, Betfair, etc.
-
-Insight: While the codebase and project was not very flashy, I learned how it feels working in a large company with a large team and I also was introduced to agile (standups, code reviews)
+While the codebase and project was not very flashy, I learned how it feels working in a large company with a large team and I also was introduced to agile (standups, code reviews)
 
 #### Highlights
 
@@ -110,20 +123,15 @@ Insight: While the codebase and project was not very flashy, I learned how it fe
 * Automation scripts in Bash and Expect in Jenkins.
 * Release manager: in charge or the team's code merging, code deployment, and direct support towards clients
 
-### Asesores Locales Consultoria S.A. ( 2009-07-01 / 2012-09-25 )
-
-Url: http://www.asesoreslocales.com
+### Asesores Locales Consultoria S.A. ( 2009-07 / 2012-09 )
 
 <!--
-Started: 2009-07-01
-Finished: 2012-09-25
+Started: 2009-07
+Finished: 2012-09
 -->
 
-Description: Asesores locales is a well renowned medium-size consultancy company based in Madrid, Malaga and Cadiz (Spain). It's main line of business is the development of software for local goverments, as well as training in several fields. Other clients include companies both spanish and international.
 
-Insight: Asesores Locales was my first job as a developer. I learned some basics and JEE, and thanks to my motivation I ended up learning new stuff and theaching others, in other words, I was the innovative and geed mind in the company. I also built (by myself or leading) some applications and servers required.
-
-Insight: Asesores Locales was my first job as a developer.
+Asesores Locales was my first job as a developer.
 I started by learning some basics on JEE and web development, but fueled by
 my motivation, after the cuourse of my time there I ended up leading development
 of some projects, bringing new technology, and mentoring others
@@ -140,14 +148,15 @@ of some projects, bringing new technology, and mentoring others
 * Product presentations (inside and outside the company)
 * Manager role in some projects
 
-## Attitudes
+## Strengths
 
-* Extremely efficient developer, perfect balance between speed and 
-test coverage.
-* Enthusiast and curious: continously learning and trying new technologies and languages on my sparte time
+* Very efficient developer, multi-tasker, right balance between speed and test coverage.
+* Can-do attitude.
+* Likes to have a good overview of the global architecture, from the backend to the frontend, including databases, APIs, DNS and servers.
+* Special focus on performance: able to identify, find and fix bottlenecks.
+* Enthusiast and curious: continously learning and trying new technologies and languages on my spare time
 * Motivation to solve difficult problems and build complex features
-* Friendly person, excellent working with teams, as well as independently
-* Capable of managing small teams, and mentoring people, both technical and not technical
+* Extremely friendly person, excellent working with teams, as well as independently
 
 ## Personal projects
 
@@ -156,11 +165,12 @@ not only application development but also hardware projects and games.
 You can see my full portfolio on [Coconauts.net](http://coconauts.net/projects), and [Github.com/rephus](https://github.com/rephus)
 but some of the highlights include
 
-* [Retrophies](http://retrophies.win), a web emulator of NES games with Achievements and multiplayer gameplay via websockets.
+* [My own podcast](http://coconauts.net/projects/podcast/) about development (in spanish)
+* [StarCraft Unity3D](http://coconauts.net/projects/starcraft-unity3d/) RTS template optimized for mobile, built in Unity3D inspired in StarCraft
+* [Retrophies](http://html5.coconauts.net/retrophies), a web emulator of NES games with Achievements and multiplayer gameplay via websockets.
   and multiplayer gameplay with websockets, featured on Hackernews.
 * [Watchduino](http://coconauts.net/projects/watchduino2/), a smartwatch based
   on Arduino with Bluetooth communication and companion app for Android.
   Finalist on the Hackaday Prize 2015.
-* Casual mobile videogames released for Android platform since v1.6 [android](https://play.google.com/store/apps/developer?id=Coconauts)
+* Casual mobile videogames released for Android platform since v1.6 [android](http://coconauts.net/blog/tags/android/)
 * [Gramola](http://coconauts.net/projects/gramola/), a web-based music player written in Node.js
-* [My own podcast](http://coconauts.net/projects/podcast/) about development (in spanish)
