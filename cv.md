@@ -41,17 +41,12 @@ Github: [https://github.com/rephus](https://github.com/rephus)
 Started: 2019-01
 
 -->
-I joined Stacker as a full stack engineer in its early stage, we went through some iterations in the product. 
-It was very challening and exciting product to work on, 
-because the goal to allow non technical users to build their own apps was not a very easy task;
-not from the product point of view (no one has done it right yet) and not from the technical point of view. 
-We had to design a very dinamic API based on any schema and configuration, with several generic layers (like permissions or roles), 
-as well as a cache to maintain the data to keep it performant.                
+I joined Stacker as a full stack engineer at a very early stage, so we experienced some iterations in the product. It was a very challening and exciting product to work on, since the goal to allow non technical users to build their own apps was not an easy task; nor from the product point of view (no one has cracked the magic formula yet) or from a technical point of view. We had to design a very dynamic API that could not be tied to a specific schema or configuration, with several generic layers (like permissions or roles), as well as a data cache to keep it performant.              
 
 #### Higlights
 
 * Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached
-* I was in charge of devops: I designed and maintained Kubernetes staging and prod clusters
+* I was in charge of devops: I designed and maintained Kubernetes clusters for staging and production
 
 ### Lantum ( 2017-04 / 2019-01 )
 <!--
