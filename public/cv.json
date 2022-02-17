@@ -1,7 +1,7 @@
 {
     "personal-information": {
         "name": "Javier Rengel Jimenez",
-        "title": "Senior Backend Software Engineer",
+        "title": "Senior Full Stack Software Engineer",
         "education": "BSc in Computer Engineering at Málaga University",
         "contact": {
             "email": "javier@rengel.me, javier@coconauts.net",
@@ -11,12 +11,24 @@
             "github": "https://github.com/rephus"
         }
     },
+    "favourite-technologies": [
+        "Python, JS, Scala, Go, React, AWS, GCP, Docker, Kubernetes, Datadog, Redis, PostgreSQL"
+    ],
     "working-experience": {
+        "pashi": {
+            "started": "2020-09",
+            "finished": "2021-05",
+            "higlights": [
+                "Technologies: Golang, VanillaJS, Docker, Postgres, Cypress"
+            ]
+        },
         "stacker": {
             "started": "2019-01",
+            "finished": "2020-09",
             "higlights": [
-                "Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached",
-                "I was in charge of devops: I designed and maintained Kubernetes clusters for staging and production"
+                "Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached, Cypress",
+                "I was in charge of devops and architecture: deployed services using Kubernetes in GCP",
+                "Advance service monitoring on Datadog"
             ]
         },
         "lantum": {

@@ -14,13 +14,17 @@ BSc in Computer Engineering at Málaga University
 
 Curriculum vitae generated from Markdown, for the latest version visit [Rengel.me](http://rengel.me)
 
+
+
 <!--
 ## Personal information
 
 Name: Javier Rengel Jimenez
-Title: Senior Backend Software Engineer
+Title: Senior Full Stack Software Engineer
 Education: BSc in Computer Engineering at Málaga University
 -->
+
+
 
 ### Contact
 
@@ -34,19 +38,46 @@ Twitter: [rephus](http://twitter.com/rephus)
 
 Github: [https://github.com/rephus](https://github.com/rephus)
 
+## Favourite technologies
+
+* Python, JS, Scala, Go, React, AWS, GCP, Docker, Kubernetes, Datadog, Redis, PostgreSQL
+
 ## Working experience
+
+### Pashi ( 2020-09 / 2021-05 )
+<!--
+Started: 2020-09
+Finished: 2021-05
+-->
+I joined Pashi as a technical leader,
+I was in charge of maintaining, updating, bugfixing the main codebase, 
+while I was building a brand new interface and backend for extending the compatibility of the product with 
+multiple production line types, using no-code principles. 
+I built a no-code report engine to visualize the status of the production line in realtime. 
+I introduced tests and CI. 
+On my first day, I dockerized all the different Go services for everyone to run it locally. 
+
+As the worker with more seniority, I introduced good startup practices, to improve our efficiency as a team. 
+I was continuously doing tech talks even for non technical coworkers, and writting documentation of all different components of the product.
+
+
+#### Higlights
+
+* Technologies: Golang, VanillaJS, Docker, Postgres, Cypress
+
 
 ### Stacker ( 2019-01 / - )
 <!--
 Started: 2019-01
-
+Finished: 2020-09
 -->
 I joined Stacker as a full stack engineer at a very early stage, so we experienced some iterations in the product. It was a very challening and exciting product to work on, since the goal to allow non technical users to build their own apps was not an easy task; nor from the product point of view (no one has cracked the magic formula yet) or from a technical point of view. We had to design a very dynamic API that could not be tied to a specific schema or configuration, with several generic layers (like permissions or roles), as well as a data cache to keep it performant.              
 
 #### Higlights
 
-* Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached
-* I was in charge of devops: I designed and maintained Kubernetes clusters for staging and production
+* Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached, Cypress
+* I was in charge of devops and architecture: deployed services using Kubernetes in GCP
+* Advance service monitoring on Datadog
 
 ### Lantum ( 2017-04 / 2019-01 )
 <!--

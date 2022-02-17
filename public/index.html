@@ -54,11 +54,11 @@
    <script type="text/javascript" src="javascripts/talkjs.js"></script>
 </head>
 <body >
-      <!--
+      
       <a href="mailto:javier+cv@rengel.me" target="_blank">
          <img  class='availability-ribbon' src='images/available-ribbon.png'/>
-      </a>   -->   
-      <img  class='availability-ribbon' src='images/engaged-ribbon.png'/>
+      </a>   
+     <!-- <img  class='availability-ribbon' src='images/engaged-ribbon.png'/> -->  
    <div id='main' data-stellar-background-ratio="0.2" class="visible-md visible-lg">
       <div class="container">
          <div class="row">
@@ -81,12 +81,12 @@
                <a href='#cv' >My CV</a>
                <a href='#follow-up' > Contact</a>
             </div>
-            <!--
-            <div class="col-sm-4 col-lg-4 column right-text">
+            
+            <div class="col-sm-2 col-lg-2 column right-text">
                <a href='https://calendly.com/rephus/zoom' target='_blank'><button style='color:black'>Book a call</button> </a>
 
             </div>
-            -->
+            
          </div>
       </div>
       <div class="container hidden-md hidden-lg menu-mobile ">
@@ -103,7 +103,7 @@
 
          <div class="row">
          <div class="col-sm-12 col-lg-12 column">
-            <p>I'm a senior software engineer with over 10 years of experience. 
+            <p>I'm a senior software engineer with over 12 years of experience. 
                I specialize in backend web development, but 
                I have experience and a good understanding of the full stack,
                 from frontend to devops. 
@@ -113,13 +113,17 @@
             </p>
             <p>Most of my professional experience has been with startups in London. I enjoy the thrill of building something brand new, plus the fast paced environment and good vives with a small and dedicated team.
             </p>
-            <!--<p>I'm currently available for hire as a permanent or contractor on a fully-remote basis.
-            </p>-->
-            <p>I'm currently working fulltime, but feel free to get in touch to discuss a collaboration in the future.</p>
-
+           <p>I'm currently available for hire as a permanent or contractor on a fully-remote basis.
+            </p>
+            <!-- <p>I'm currently working fulltime, but feel free to get in touch to discuss a collaboration in the future.</p>
+-->
             <p>During my spare time I am also constantly learning new technologies and building pet projects of very different natures: from web apps to videogames to mobile apps to electronics. I share them in my blog,
             <a href='http://coconauts.net'> Coconauts.net</a>. </p>
-            </div>
+           
+            <p>Favourite technologies: Python, JS, Scala, Go, React, AWS, GCP, Docker, Kubernetes, Datadog, Redis, PostgreSQL
+            </p>
+
+         </div>
            
          </div>
         </div>
@@ -131,11 +135,52 @@
             This is a list of my previous companies, and some technologies and stuff I've done there
          </p>
 
+
+         <div class="card">
+            <div class="card-header" id="headingPashi">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapsePashi" aria-expanded="true" aria-controls="collapsePashi">
+                  Pashi 2020-09 / 2021-05 <span class="label label-default">Fully remote</span> <span class="label label-warning">Technical leader</span> <span class="label label-danger">Contract</span>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapsePashi" class="collapse" aria-labelledby="headingPashi" data-parent="#accordion">
+              <div class="card-body">
+               Pashi is an OS for factories. With a simple No-code editor you can view and edit the different hardware devices of a production line.
+
+                 <h3>Insight</h3>
+                 I joined Pashi as a technical leader.
+                 I was in charge of maintaining, updating, bugfixing the main codebase, 
+                 while I was building a brand new interface and backend for extending the compatibility of the product with 
+                 multiple production line types, using no-code principles. 
+                
+                 <h3>Hightlights</h3>
+                 <ul>
+                    <li>Technologies: Go, VanillaJS, Docker, Postgres, Cypress.</li>
+                    <li>On my first day, I dockerized all the different Go services for everyone to run it locally. 
+                  </li>
+                  <li> I introduced tests and CI. </li>
+                    <li> I built a no-code report engine to visualize the status of the production line in realtime. 
+                     </li>
+                    <li>As the worker with more seniority, I introduced good startup practices, to improve our efficiency as a team. 
+                  </li>
+                  <li> I was continuously doing tech talks even for non technical coworkers, and writting documentation of all different components of the product.
+
+                  </li>
+
+                 </ul>
+              </div>
+            </div>
+          </div>
+
+
+
          <div class="card">
             <div class="card-header" id="headingStacker">
               <h5 class="mb-0">
                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStacker" aria-expanded="true" aria-controls="collapseStacker">
-                  Stacker 2019-01 / - <span class="label label-default">Fully remote</span> <span class="label label-warning">Full stack</span> <span class="label label-danger">Contract</span>
+                  Stacker 2019-01 / 2020-09 <span class="label label-default">Fully remote</span> <span class="label label-warning">Full stack</span> <span class="label label-danger">Contract</span>
                 </button>
               </h5>
             </div>
@@ -147,7 +192,7 @@
                  <h3>Insight</h3>
                  I joined Stacker as a full stack engineer at a very early stage, 
                  so we experienced some iterations in the product. 
-                 It was a very challening and exciting product to work on, 
+                 It was a very challenging and exciting product to work on, 
                  since the goal to allow non technical users to build their own apps 
                  was not an easy task; nor from the product point of view 
                  (no one has cracked the magic formula yet) or from a technical point
@@ -158,8 +203,10 @@
                    it performant. 
                  <h3>Hightlights</h3>
                  <ul>
-                    <li>Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached.</li>
-                    <li>I was in charge of devops: I designed and maintained Kubernetes clusters for staging and production.</li>
+                    <li>Technologies: Google cloud, Kubernetes, React, Python Django, Celery, Postgres, Memcached, Cypress.</li>
+                    <li>I was in charge of devops and architecture: deployed services using Kubernetes in GCP.</li>
+                    <li>Advance service monitoring on Datadog.</li>
+
                  </ul>
               </div>
             </div>
@@ -185,7 +232,7 @@
                  <h3>Hightlights</h3>
                  <ul>
                     <li>Technologies: AWS, Angular, Python, Kubernetes</li>
-                    <li>I was in charge of devops: I designed and maintained Kubernetes staging and prod clusters</li>
+                    <li>I was in charge of devops: I designed and maintained Kubernetes staging and prod clusters in AWS</li>
                  </ul>
               </div>
             </div>
