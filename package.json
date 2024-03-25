@@ -4,7 +4,7 @@
   "description": "Displays Javier Rengel's resume as Json",
   "main" : "app.js",
   "dependencies" : {
-    "express" : "4.0.0",
+    "express" : "4.19.2",
     "body-parser" : "1.0.2"
   },  
   "engines": {  
