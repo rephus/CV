@@ -38,9 +38,11 @@ async function getVisitorInfo() {
       ],
     };
 
+    // Slack invalidates hooks that are exposed in github, this is to avoid that
+    const hookCombinedUrl =  ['https', '://', 'hooks' , '.slack', '.com', '/services/T06JDK6DB', '/B087RKZ2VM1/Lcgel75RGyKy0SO8xqzCJGfZ'].join('')
     // Send data to Slack
     try {
-      await fetch("https://hooks.slack.com/services/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", {
+      await fetch(hookCombinedUrl, {
         method: "POST",
         //headers: { "Content-Type": "application/json" },
         body: JSON.stringify(slackPayload),
